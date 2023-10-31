@@ -1,0 +1,176 @@
+body {
+    display: grid;
+    grid-template-areas: 'header header header header header header'
+    'nav nav nav nav nav nav'
+    'article article article article article section'
+    'article article article article article section'
+    'footer footer footer footer footer footer';;
+    height: 50%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#bodygaleria {
+    display: grid;
+    grid-template-areas: 'header header header header header header'
+    'nav nav nav nav nav nav'
+    'article article article article article article'
+    'article article article article article article'
+    'footer footer footer footer footer footer';;
+    height: 50%;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+header {
+    grid-area: header;
+    height: 150px;
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+    background-color: #FDDA0D;
+    background-image: url('Rynek.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img {
+    max-height: 60%;
+    width: auto;
+    float: left;
+}
+
+nav {
+    grid-area: nav;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFBF00;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.linkgrid {
+    text-align: center;
+    font-size: 2vw;
+    text-align: center;
+    text-decoration: none;
+}
+
+.linkgrid a {
+    text-decoration: none;
+    color: #c00;
+    padding: 20px;
+    border-left: 2px solid black;
+    margin-left: -10px;
+}
+
+.linkgrid a:hover {
+    background-color: orange;
+}
+
+article {
+    grid-area: article;
+    font-size: 20px;
+    border-right: 2px solid black;
+    padding: 50px;
+    background-color: #FDDA0D;
+    min-height: 560px;
+}
+
+section {
+    grid-area: section;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #FDDA0D;
+}
+
+section iframe {
+    height: 300px;
+    width: 400px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+footer {
+    padding: 20px;
+    font-size: 25px;
+    grid-area: footer;
+    height: 50px;
+    background-color: #FFBF00;
+    display: inline-block;
+    text-align: left;
+}
+
+a img {
+    max-height: 50%;
+    max-width: 50%;
+    padding-left:  20px;
+    padding-top: 10px;
+}
+
+a:hover {
+    color: #00c;
+}
+
+a:active {
+    color: #ccc
+}
+
+form {
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.galeriaimg {
+    max-height: 40%;
+    max-width: 40%;
+    width: 550px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 50px;
+    float: left;
+}
+table {
+    margin: auto;
+}
+
+input {
+    margin: 10px;
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+#contactarticle {
+    display: inline-grid;
+    grid-template-areas: 'text picture picture picture picture picture picture'
+    'text picture picture picture picture picture picture';
+    text-align: center;
+}
+
+#contact {
+    grid-area: text;
+    text-align: left;
+    font-size: 25px;
+    line-height: 2;
+}
+
+#contactimg {
+    grid-area: picture;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+
+
+
