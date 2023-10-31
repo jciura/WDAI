@@ -171,6 +171,17 @@ ul {
     max-height: 50%;
 }
 
+h2 {
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
+
+.data {
+    font-size: 15px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
 
 
 
